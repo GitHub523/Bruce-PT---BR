@@ -36,79 +36,80 @@ Also, [read our FAQ](https://github.com/pr3y/Bruce/wiki/FAQ)
 <details>
   <summary><h2>WiFi</h2></summary>
 
-- [x] Connect to WiFi
+- [x] Conecte-se ao Wi-Fi
 - [x] WiFi AP
-- [x] Disconnect WiFi
-- [x] [WiFi Atks](https://github.com/pr3y/Bruce/wiki/WiFi#wifi-atks)
-  - [x] [Beacon Spam](https://github.com/pr3y/Bruce/wiki/WiFi#beacon-spam)
-  - [x] [Target Atk](https://github.com/pr3y/Bruce/wiki/WiFi#target-atk)
-    - [x] Information
-    - [x] Target Deauth
-    - [x] EvilPortal + Deauth
-  - [x] Deauth Flood (More than one target)
+- [x] Desconecte o Wi-Fi
+- [x] [Ataques Wi-Fi](https://github.com/pr3y/Bruce/wiki/WiFi#wifi-atks)
+  - [x] [Spam de farol](https://github.com/pr3y/Bruce/wiki/WiFi#beacon-spam)
+  - [x] [Alvo Atq](https://github.com/pr3y/Bruce/wiki/WiFi#target-atk)
+    - [x] Informação
+    - [x]  Desautenticação do Alvo
+    - [x] Desautenticação de destino
+    - [x] EvilPortal + Desautenticação
+  - [x] Inundação de desautenticação (Mais de um alvo)
 - [x] [Wardriving](https://github.com/pr3y/Bruce/wiki/Wardriving)
 - [x] [TelNet](https://github.com/pr3y/Bruce/wiki/WiFi#telnet)
 - [x] [SSH](https://github.com/pr3y/Bruce/wiki/WiFi#ssh)
 - [x] [RAW Sniffer](https://github.com/pr3y/Bruce/wiki/WiFi#raw-sniffer)
-- [x] [TCP Client](https://github.com/pr3y/Bruce/wiki/WiFi#tcp-client)
-- [x] [TCP Listener](https://github.com/pr3y/Bruce/wiki/WiFi#tcp-listener)
-- [x] [Evil Portal](https://github.com/pr3y/Bruce/wiki/WiFi#evil-portal)
-- [x] [Scan Hosts](https://github.com/pr3y/Bruce/wiki/WiFi#evil-portal)
-- [x] [Wireguard Tunneling](https://github.com/pr3y/Bruce/wiki/WiFi#wireguard-tunneling)
+- [x] [TCP Cliente](https://github.com/pr3y/Bruce/wiki/WiFi#tcp-client)
+- [x] [TCP Ouvinte](https://github.com/pr3y/Bruce/wiki/WiFi#tcp-listener)
+- [x] [Portal do Mal](https://github.com/pr3y/Bruce/wiki/WiFi#evil-portal)
+- [x] [Analisar hosts](https://github.com/pr3y/Bruce/wiki/WiFi#evil-portal)
+- [x] [Wireguard](https://github.com/pr3y/Bruce/wiki/WiFi#wireguard-tunneling)
 - [x] Brucegotchi
-  - [x] Pwnagotchi friend
-  - [x] Pwngrid spam faces & names
-    - [x] [Optional] DoScreen a very long name and face
-    - [x] [Optional] Flood uniq peer identifiers
+  - [x] Amigo Pwnagotchi
+  - [x] Rostos e nomes de spam do Pwngrid
+    - [x] [Opcional] Exibir um nome e rosto muito longos
+    - [x] [Opcional] Inundar identificadores de pares únicos
 
 </details>
 
 <details>
   <summary><h2>BLE</h2></summary>
 
-- [X] [BLE Scan](https://github.com/pr3y/Bruce/wiki/BLE#ble-scan)
-- [X] Bad BLE - Run Ducky scripts, similar to [BadUsb](https://github.com/pr3y/Bruce/wiki/Others#badusb)
-- [X] BLE Keyboard - Cardputer and T-Deck Only
+- [X] [Varredura BLE](https://github.com/pr3y/Bruce/wiki/BLE#ble-scan)
+- [X] BLE ruim - Execute scripts Ducky, semelhantes a [BadUsb](https://github.com/pr3y/Bruce/wiki/Others#badusb)
+- [X] Teclado BLE - Somente Cardputer e T-Deck
 - [X] iOS Spam
 - [X] Windows Spam
 - [X] Samsung Spam
 - [X] Android Spam
-- [X] Spam All
+- [X] Spam tudo
 </details>
 
 
 <details>
   <summary><h2>RF</h2></summary>
 
-- [x] Scan/Copy
+- [x] Digitalizar/Copiar
 - [x] [Custom SubGhz](https://github.com/pr3y/Bruce/wiki/RF#replay-payloads-like-flipper)
 - [x] Spectrum
-- [x] Jammer Full (sends a full squared wave into output)
-- [x] Jammer Intermittent (sends PWM signal into output)
-- [x] Config
+- [x] Jammer Full (envia uma onda quadrada completa para a saída)
+- [x] Intermitente do Jammer (envia sinal PWM para a saída
+- [x] Configuração
     - [X] RF TX Pin
     - [X] RF RX Pin
-    - [X] RF Module
+    - [X] RF Modolo
         - [x] RF433 T/R M5Stack
         - [x] [CC1101 (Sub-Ghz)](https://github.com/pr3y/Bruce/wiki/CC1101)
-    - [X] RF Frequency
+    - [X] RF Frequencia
 - [x] Replay
 </details>
 
 <details>
   <summary><h2>RFID</h2></summary>
 
-- [x] Read tag
-- [x] Read 125kHz
-- [x] Clone tag
-- [x] Write NDEF records
+- [x] Leia a etiqueta
+- [x] Leitura de 125kHz
+- [x] Clonar tag
+- [x] Escrever registros NDEF
 - [x] Amiibolink
-- [x] Chameleon
-- [x] Write data
-- [x] Erase data
-- [x] Save file
-- [x] Load file
-- [x] Config
+- [x] Camaleão
+- [x] Escrever dados
+- [x] Apagar dados
+- [x] Salvar arquivo
+- [x] Carregar arquivo
+- [x] Configuração
     - [X] [RFID Module](https://github.com/pr3y/Bruce/wiki/RFID#supported-modules)
         - [x] PN532
         - [x] PN532Killer
@@ -119,7 +120,7 @@ Also, [read our FAQ](https://github.com/pr3y/Bruce/wiki/FAQ)
   <summary><h2>IR</h2></summary>
 
 - [x] TV-B-Gone
-- [x] IR Receiver
+- [x] Receptor de infravermelho
 - [x] [Custom IR (NEC, NECext, SIRC, SIRC15, SIRC20, Samsung32, RC5, RC5X, RC6)](https://github.com/pr3y/Bruce/wiki/IR#replay-payloads-like-flipper)
 - [x] Config
     - [X] Ir TX Pin
@@ -140,7 +141,7 @@ Also, [read our FAQ](https://github.com/pr3y/Bruce/wiki/FAQ)
 <details>
   <summary><h2>NRF24</h2></summary>
 
-- [X] [NRF24 Jammer](https://github.com/pr3y/Bruce/wiki/BLE#nrf24-jammer)
+- [X] [Bloqueador NRF24](https://github.com/pr3y/Bruce/wiki/BLE#nrf24-jammer)
 - [X] 2.4G Spectrum
 - [ ] Mousejack
 </details>
@@ -154,16 +155,16 @@ Also, [read our FAQ](https://github.com/pr3y/Bruce/wiki/FAQ)
 <details>
   <summary><h2>Others</h2></summary>
 
-- [X] Mic Spectrum
+- [X] Espectro do microfone
 - [X] QRCodes
-    - [x] Custom
-    - [x] PIX (Brazil bank transfer system)
+    - [x] Personalizado
+    - [x] PIX (sistema de transferência bancária do Brasil)
 - [x] [SD Card Mngr](https://github.com/pr3y/Bruce/wiki/Others#sd-card-mngr)
     - [x] View image (jpg)
-    - [x] File Info
+    - [x] Informações do arquivo
     - [x] [Wigle Upload](https://github.com/pr3y/Bruce/wiki/Wardriving#how-to-upload)
-    - [x] Play Audio
-    - [x] View File
+    - [x] Reproduzir áudio
+    - [x] Ver arquivo
 - [x] [LittleFS Mngr](https://github.com/pr3y/Bruce/wiki/Others#littlefs-mngr)
 - [x] [WebUI](https://github.com/pr3y/Bruce/wiki/Others#webui)
     - [x] Server Structure
@@ -172,7 +173,7 @@ Also, [read our FAQ](https://github.com/pr3y/Bruce/wiki/FAQ)
     - [x] Spiffs Mngr
 - [x] Megalodon
 - [x] [BADUsb (New features, LittleFS and SDCard)](https://github.com/pr3y/Bruce/wiki/Others#badusb)
-- [x] USB Keyboard - Cardputer and T-Deck Only
+- [x] Teclado USB - Somente Cardputer e T-Deck
 - [x] [iButton](https://github.com/pr3y/Bruce/wiki/Others#ibutton)
 - [x] [LED Control](https://github.com/pr3y/Bruce/wiki/Others#led-control)
 </details>
@@ -197,14 +198,14 @@ Also, [read our FAQ](https://github.com/pr3y/Bruce/wiki/FAQ)
 <details>
   <summary><h2>Config</h2></summary>
 
-- [x] Brightness
-- [x] Dim Time
-- [x] Orientation
-- [X] UI Color
-- [x] Boot Sound on/off
-- [x] Clock
-- [x] Sleep
-- [x] Restart
+- [x] Brilho
+- [x] Tempo escuro
+- [x] Orientação
+- [X] Cor da interface do usuário
+- [x] Som de inicialização ativado/desativado
+- [x] Relógio
+- [x] Dormir
+- [x] Reiniciar
 </details>
 
 ## Specific functions per Device, the ones not mentioned here are available to all.
